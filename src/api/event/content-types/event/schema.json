@@ -24,16 +24,15 @@
       },
       "required": true
     },
-    "eventName": {
+    "name": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
-    "eventDescription": {
+    "description": {
       "type": "blocks",
       "pluginOptions": {
         "i18n": {
