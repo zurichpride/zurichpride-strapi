@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_elements_containers",
+  "info": {
+    "displayName": "Container",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "blocks",
+      "required": false
+    },
+    "buttons": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": true
+    },
+    "hidden": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}
